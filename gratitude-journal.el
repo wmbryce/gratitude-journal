@@ -5,12 +5,9 @@
 ;; Version: 0.1
 ;; Keywords: Journal, Gratitude
 
-…
-
 ;;; Commentary:
 
 ;; This is just a simple program to prompt the user to practice gratifulness each day
-…
 
 ;;;###autoload
 (defun printToTestBuffer (question answerFormat)
