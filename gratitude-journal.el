@@ -16,10 +16,11 @@
     )
   )
 
+;;;###autoload
 (defun insert-current-date () (interactive)
         (insert (shell-command-to-string "echo -n $(date +%m/%d/%Y)")))
 
-;;; Code:
+;;;###autoload
 (defun gratitude-journal ()
     (interactive)
     (find-file-literally "~/org/gratitude_journal.org")
